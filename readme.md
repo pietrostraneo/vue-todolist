@@ -24,3 +24,5 @@ Bonus:
 2- cliccando sul testo dell'item, invertire il valore della proprietà done del todo corrispondente (se done era uguale a false, impostare true e viceversa)
 Buon lavoro e buon divertimento!
 P.S: La lezione non verrà caricata subito ma più tardi!
+
+ESERCIZIO CONSEGNATO

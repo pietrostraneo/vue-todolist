@@ -3,3 +3,131 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: black;
+}
+
+header{
+    height: 90px;
+}
+
+header img{
+    height: 85px;
+}
+
+header h1{
+    color: orange;
+    font-weight: 900;
+}
+
+#add i{
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 10px;
+}
+
+#add-sm {
+   border-radius: 50%;
+}
+
+#add, #done, #undone, #delete, #rem{
+    border-radius: 20px;
+}
+
+main{
+    height: calc(100vh - 90px);
+    background-color: rgb(33, 33, 33);
+}
+
+.todo-container{
+    background-color: white;
+    border-radius: 20px;
+    width: 600px;
+    max-height: 520px;
+    overflow: scroll;
+}
+
+li{
+    padding: 20px;
+    border-bottom: 1px solid gray;
+}
+
+li:last-of-type{
+    border: none;
+}
+
+.fa-check, .fa-xmark{
+    color: orange
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.slide-in-right {
+	-webkit-animation: slide-in-right 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-right 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.fade-in {
+	-webkit-animation: fade-in 0.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in 0.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+/* ANIMAZIONI */
+
+/**
+ * ----------------------------------------
+ * animation slide-in-right
+ * ----------------------------------------
+ */
+ @-webkit-keyframes slide-in-right {
+    0% {
+      -webkit-transform: translateX(1000px);
+              transform: translateX(1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  @keyframes slide-in-right {
+    0% {
+      -webkit-transform: translateX(1000px);
+              transform: translateX(1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0);
+              transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+/**
+ * ----------------------------------------
+ * animation fade-in
+ * ----------------------------------------
+ */
+@-webkit-keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  
